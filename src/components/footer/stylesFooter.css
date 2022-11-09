@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    justify-content: space-between;
+    font-size: small;
+    position:relative;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.all, .clear {
+    display: inline;
+    border: 0;
+    margin: 5px;
+    background-color: #fff;
+}
+.all:hover{
+    border:1px solid rgb(0, 0, 0,0.2);
+    background-color: rgb(240, 240, 240);
+    border-radius: 2px;
+}
+.clear:hover{
+    text-decoration: underline;
+}
